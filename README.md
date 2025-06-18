@@ -94,6 +94,14 @@ A custom U-Net model was implemented with the following encoder-decoder architec
   - Displayed predictions on test images alongside original and ground truth masks
 
 ---
+### Final Takeaways:
+
+- **Image Size**: Larger input size (256x256) improved segmentation clarity and learning capacity.
+- **Learning Rate**: Lower learning rate (`0.0001`) was more stable and effective than `0.001`.
+- **Model Depth**: Moderately deep U-Net (up to 256 channels) with balanced skip connections performed best.
+- **Regularization**: Moderate regularization like `L2(0.001)` works, but higher values (`0.01`) hindered training, even though I don’t prefer regularization
+- **Data Augmentation**: Helped models generalize better and boosted validation performance.
+---
 
 ## Conclusion
 
