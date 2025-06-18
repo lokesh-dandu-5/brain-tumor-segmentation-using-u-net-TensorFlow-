@@ -39,7 +39,7 @@ The goal is to automatically segment tumor regions in brain MRI scans using a co
 
 ---
 
-## ⚙️ Data Preprocessing
+##  Data Preprocessing
 
 - **Libraries Imported**: TensorFlow, NumPy, Matplotlib, etc.  
 - **Images and Masks Loaded**: All images were read and stored in lists.  
@@ -51,7 +51,7 @@ The goal is to automatically segment tumor regions in brain MRI scans using a co
 
 ---
 
-## 🏗 Model Architecture - U-Net
+##  Model Architecture - U-Net
 
 A custom U-Net model was implemented with the following encoder-decoder architecture:
 
@@ -81,7 +81,7 @@ A custom U-Net model was implemented with the following encoder-decoder architec
 
 ---
 
-## 📊 Results and Evaluation
+## Results and Evaluation
 
 - **Final Dice Coefficient**:  
   - Training: ~0.9280  
